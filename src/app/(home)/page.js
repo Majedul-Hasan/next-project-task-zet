@@ -4,7 +4,6 @@ import Products from '@/components/Products';
 import StartEarning from '@/components/StartEarning';
 import TopBrands from '@/components/TopBrands';
 import WhyChooseUs from '@/components/WhyChooseUs';
-import Image from 'next/image';
 
 export default function Home() {
   return (

@@ -16,8 +16,8 @@ const StartEarning = () => {
     arrows: false,
   };
   return (
-    <section className='  relative py-60 mb-80'>
-      <div className='clip1 -top-12 lg:clip absolute left-0 -z-10 h-[100vh] w-full bg-[#0a2540] md:h-[160vh] lg:h-[180vh]'></div>
+    <section className='  relative py-60 mb-52'>
+      <div className='clip1 -top-12 lg:clip absolute left-0 -z-10 h-[200vh] w-full bg-[#0a2540] md:h-[160vh] lg:h-[180vh]'></div>
       <div className='text-white xl:px-20'>
         <div className='mb-24 w-full text-center'>
           <h3 className='text-lg font-bold'>Start Earning in 3 Easy Steps</h3>
@@ -94,7 +94,7 @@ const StartEarning = () => {
               </div>
             </div>
             <div className='px-20'>
-              <div className='flex flex-col-reverse items-center gap-20 md:flex-row'>
+              <div className='flex flex-col-reverse  items-center gap-20 md:flex-row'>
                 <div className='flex flex-1 flex-col items-center gap-10 md:items-start'>
                   <h4 className='clip3 w-fit bg-[#538bff] py-3 pl-5 pr-8 text-xl font-bold uppercase'>
                     step 3
@@ -127,7 +127,7 @@ const StartEarning = () => {
             </div>
           </Slider>
           <Image
-            className='absolute -top-10 -z-10 w-72 md:-right-16 lg:w-auto'
+            className='absolute md:right-16 -top-10 -z-10 w-72  lg:-right-16 '
             src='/assets/earningDec.svg'
             height={600}
             width={400}
