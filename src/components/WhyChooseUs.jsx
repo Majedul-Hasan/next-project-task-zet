@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 
 const WhyChooseUs = () => {
   return (
-    <section className='flex flex-col md:flex-row max-w-[80rem] mx-auto'>
+    <section className='flex mb-32 flex-col md:flex-row max-w-[80rem] mx-auto '>
       <div className='relative grid place-items-center md:w-96'>
         <Image
           className='absolute -z-10 hidden md:block'
