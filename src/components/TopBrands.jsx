@@ -45,10 +45,10 @@ const TopBrands = () => {
     ],
   };
   return (
-    <div className='lg:py-10 my-28 my-11'>
+    <div className='lg:pt-10 mt-28'>
       <div className='mb-14 text-center text-lg'>
-        <h3 className='text-2xl font-bold'>Top Brands on ZET</h3>
-        We are trusted by best brand in the country
+        <h3 className='text-xl font-bold'>Top Brands on ZET</h3>
+        <p className='text-sm'> We are trusted by best brand in the country</p>
       </div>
       <div className='mx-auto max-w-[85rem]'>
         <Slider {...settings}>
