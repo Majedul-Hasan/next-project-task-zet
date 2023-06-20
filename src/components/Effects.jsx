@@ -19,7 +19,7 @@ const Effects = () => {
     beforeChange: (current) => setProgress((100 / (3 - 2)) * (current + 1)),
   };
   return (
-    <section className='my-44 grid h-screen place-items-center'>
+    <section className='mt-44 mb-24 grid h-screen place-items-center'>
       <div className='clip absolute left-0 -z-20 h-[120vh] w-full bg-[#145cc5]'></div>
       <div className='clip2 relative flex h-4/5 w-full items-center bg-[#417fda] max-w-[80rem]'>
         <div className='flex justify-between'>
