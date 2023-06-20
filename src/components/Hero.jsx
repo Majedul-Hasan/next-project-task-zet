@@ -17,10 +17,10 @@ const HeroSection = () => {
             <span className='text-blue-600'>Earn Rs.1 Lakh/Month</span>
           </h3>
           <p className='text-lg'>No investment required</p>
-          <div className='lg: flex justify-center lg:justify-start'>
+          <div className='lg: flex justify-center lg:justify-start pl-4'>
             <Image
               src='assets/googleplay.svg'
-              alt=''
+              alt='googleplay'
               height={40}
               width={120}
             />
