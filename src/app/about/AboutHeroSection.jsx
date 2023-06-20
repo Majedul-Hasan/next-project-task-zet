@@ -3,7 +3,7 @@ import React from 'react';
 
 const AboutHeroSection = () => {
   return (
-    <section className='relative flex justify-center items-center h-[800px] overflow-hidden'>
+    <section className='relative flex justify-center items-center h-96 md:h-[600px] lg:h-[800px] overflow-hidden'>
       <Image
         className='object-cover lg:h-auto absolute top-0 -z-10 '
         src='/assets/OurMission.png'
@@ -12,7 +12,7 @@ const AboutHeroSection = () => {
         height={1200}
       />
       <div className='   max-w-[55ch]  text-center  text-white'>
-        <h2 className='text-3xl font-bold uppercase py-3'>Our Mission</h2>
+        <h2 className='text-3xl font-bold uppercase '>Our Mission</h2>
         <p className='text-center text-sm'>
           Enabling financial inclusion for the next billion Indians & making
           their Zindagi Set. Building a platform that enables you to sell
