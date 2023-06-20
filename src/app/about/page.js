@@ -3,6 +3,7 @@ import AboutHeroSection from './AboutHeroSection';
 import EvolutionsSection from './EvolutionsSection';
 import Featured from './Featured';
 import InvestorsSection from './InvestorsSection';
+import FoundersSection from './FoundersSection';
 
 const About = () => {
   return (
@@ -11,6 +12,7 @@ const About = () => {
       <EvolutionsSection />
       <Featured />
       <InvestorsSection />
+      <FoundersSection />
     </>
   );
 };

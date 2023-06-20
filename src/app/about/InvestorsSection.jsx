@@ -6,15 +6,15 @@ import InvestorCard from './InvestorCard';
 const InvestorsSection = () => {
   return (
     <section className='mx-auto'>
-      <div className='grid gap-20 mx-auto py-20 max-w-[90rem]'>
-        <h2 className='text-2xl font-bold md:text-3xl lg:text-4xl'>
+      <div className='grid gap-20 mx-auto py-20 max-w-[85rem]'>
+        <h2 className='text-2xl font-bold md:text-3xl lg:text-4xl md:px-5'>
           Meet the Investors
         </h2>
         <motion.div
           initial={{ y: 120, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ ease: 'easeOut', duration: 0.5 }}
-          className='grid grid-cols-2 justify-items-center gap-6 md:grid-cols-3 xl:grid-cols-4'>
+          className='grid grid-cols-2 justify-center gap-6 md:grid-cols-3 xl:grid-cols-4'>
           <InvestorCard ImgSrc='/assets/InvCompany1.png' />
           <InvestorCard ImgSrc='/assets/InvCompany2.png' />
           <InvestorCard ImgSrc='/assets/InvCompany3.png' />
@@ -24,7 +24,7 @@ const InvestorsSection = () => {
           initial={{ y: 120, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ ease: 'easeOut', duration: 0.5 }}
-          className='grid grid-cols-2 justify-items-center gap-6 md:grid-cols-3 xl:grid-cols-4'>
+          className='grid grid-cols-2 justify-items-center gap-x-6 gap-y-24 md:grid-cols-3 xl:grid-cols-4'>
           <InvestorCard
             ImgSrc='/assets/Inv1.png'
             name='Kunal Shah'

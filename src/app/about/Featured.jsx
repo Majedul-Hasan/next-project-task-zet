@@ -5,7 +5,7 @@ const Featured = () => {
   return (
     <section className='  bg-gray-200 pt-4'>
       <div className='bg-slate-50 '>
-        <div className=' max-w-[90rem] mx-auto '>
+        <div className=' max-w-[85rem] mx-auto '>
           <div className=' py-5'>
             <h2 className='mb-10 text-2xl font-bold md:text-4xl'>
               Got Featured

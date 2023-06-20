@@ -3,7 +3,7 @@ import React from 'react';
 
 const EvolutionsSection = () => {
   return (
-    <section className=' mt-20 max-w-[95rem] mx-auto '>
+    <section className=' mt-20 max-w-[85rem] mx-auto '>
       <h2 className='text-center text-2xl font-bold lg:text-4xl'>
         How we evolved over the years
       </h2>
