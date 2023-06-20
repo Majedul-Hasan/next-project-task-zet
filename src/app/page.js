@@ -1,3 +1,4 @@
+import Effects from '@/components/Effects';
 import HeroSection from '@/components/Hero';
 import Products from '@/components/Products';
 import TopBrands from '@/components/TopBrands';
@@ -9,6 +10,7 @@ export default function Home() {
       <HeroSection />
       <TopBrands />
       <Products />
+      <Effects />
     </>
   );
 }
