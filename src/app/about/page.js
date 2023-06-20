@@ -4,6 +4,7 @@ import EvolutionsSection from './EvolutionsSection';
 import Featured from './Featured';
 import InvestorsSection from './InvestorsSection';
 import FoundersSection from './FoundersSection';
+import AboutPhoto from './AboutPhoto';
 
 const About = () => {
   return (
@@ -13,6 +14,7 @@ const About = () => {
       <Featured />
       <InvestorsSection />
       <FoundersSection />
+      <AboutPhoto />
     </>
   );
 };
